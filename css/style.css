@@ -1,0 +1,76 @@
+/* Stylesheets  */
+
+
+/* Base styles resetting browser preset margins and box size*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Container body font family and font size */
+
+body {
+    font-family: 'Andika New Basic', sans-serif;
+    font-size:100%;
+}
+
+
+/* Container h2 styles for region position on section width, size, border and float */
+
+h2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+    float: none;
+    width: 140px;
+    height: 42px;
+    border: 2px solid #2c3e50;
+    text-align: center;
+    padding: center;
+}
+
+
+/** Describing Header text align margins and style */
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+/* Section text/background align margins padding and style */
+
+.section {
+    clear: margin;
+    position: relative;
+    color: #2c3e50;
+    background-color: #bdc3c7;
+    padding: 10px;
+    padding-top: 45px;
+    font-size: 100%;
+    border: 3px solid black;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.chicken {
+    background-color: #D59898;
+    color: #2c3e50;
+}
+
+.beef {
+    background-color: #C14543;
+    color: white;
+}
+
+.sushi {
+    background-color: #E5D198;
+    color: #2c3e50;
+}
+
